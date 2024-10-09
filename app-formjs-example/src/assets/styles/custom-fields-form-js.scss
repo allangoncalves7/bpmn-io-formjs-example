@@ -1,7 +1,41 @@
+
+//ocultar botões
 button[data-field-type="expression"] {
-  display: none;
+  display: none !important;
 }
 
-div[data-group-id="container"] {
-  display: none;
+button[data-field-type="taglist"] {
+  display: none !important;
 }
+
+button[data-field-type="radio"] {
+  display: none !important;
+}
+
+//ocultar grupo de botões
+div[data-group-id="container"] {
+  display: none !important;
+}
+
+div[data-group-id="presentation"] {
+  display: none !important;
+}
+
+div[data-group-id="action"] {
+  display: none !important;
+}
+
+//ocultar opção especifica nas propriedades do campo selecionado
+div[data-entry-id="key"] {
+  display: none !important;
+}
+
+//ocultar grupo de opções nas propriedades do campo selecionado
+div[data-group-id="group-condition"] {
+  display: none !important;
+}
+
+div[data-group-id="group-custom-values"] {
+  display: none !important;
+}
+
